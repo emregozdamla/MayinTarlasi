@@ -1,0 +1,14 @@
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\bin\Debug\MayinTarlasi.exe.config
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\bin\Debug\MayinTarlasi.exe
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\bin\Debug\MayinTarlasi.pdb
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.Form1.resources
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.exe
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.pdb
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\bin\Debug\MayinTarlasi.exe.manifest
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\bin\Debug\MayinTarlasi.application
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.exe.manifest
+C:\Users\Lenovo\source\repos\MayinTarlasi\MayinTarlasi\obj\Debug\MayinTarlasi.application

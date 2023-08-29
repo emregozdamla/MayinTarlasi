@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MayinTarlasi.exe" version="1.0.0.7" publicKeyToken="3800140fd2ccfdc0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MayinTarlasi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MayinTarlasi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MayinTarlasi.exe" size="14312">
+      <assemblyIdentity name="MayinTarlasi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>D1mKdNzXfHFtHTvnuRk7cdnkL4mCYiOQA+iKgDo80M4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MayinTarlasi.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MineField.java" size="10390">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R8gg+WQg/Il+qYdDWoDGgh8WN0Kyp75w8RrrVP9xctw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-P8FJ9MP\Lenovo" issuerKeyHash="6bb95de776c4b0a8d0de6cd80aeba1e9ae0c7ec0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5254iVg6aO6oAneAntOD3UB0341XIZS/eq2p49MAFPI=</DigestValue></Reference></SignedInfo><SignatureValue>jjXcUdvB141WPL4XckSYHSlWyvB5Cg9AT0rvCU7mVH5vIXj7uR9Hin0jbwEQ2xYTRSuskToHJgSGd5tnCHIiHBeN+vD5BshumSoJTb0alB67soqI8BRCp7PLjddD16BsDcglJPdRyXLWwx0T4peFrE+hlXfa1cVJFBoMRIT19Ig=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0aGty1N5tDuWxWrErBKonDkIfvgsPRgbC1QOF+/PUPW3RYCO1CPkFcd3J9hx0JK9QbT4kEK0uhcB2rleY5HHBgB6E3AP28wYM42Uej7RG+9HPxOzDWXwvV7WlFoVrY1UzpuZfHxdw8d2o3YSXZBsr3dB+7cxE9j84jSmx0R7QpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f21400d3e3a9ad7abf9421578ddf7440dd83d39e807702a8ee683a5889786ee7" Description="" Url=""><as:assemblyIdentity name="MayinTarlasi.exe" version="1.0.0.7" publicKeyToken="3800140fd2ccfdc0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-P8FJ9MP\Lenovo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8ZpVZ1CDnGqUN3pmCZ+g7VUA+NLQ8PUGuJeuL4tzYfs=</DigestValue></Reference></SignedInfo><SignatureValue>DDaZyUdSwftv6P5YZX0uhb9s7NrP08arrhffayv67Zt5klD4ZgLmk7uJilOg2TpfheQmqwm+8QXfSsiXbeFCsohOFrxtrF5OR+tj4ekLV5ZMun9XO4ztLs5p5bmVafbpYtc6b3jYyyDjvASnY+ZaSXkCptN6WwhlAygEvybTCfQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0aGty1N5tDuWxWrErBKonDkIfvgsPRgbC1QOF+/PUPW3RYCO1CPkFcd3J9hx0JK9QbT4kEK0uhcB2rleY5HHBgB6E3AP28wYM42Uej7RG+9HPxOzDWXwvV7WlFoVrY1UzpuZfHxdw8d2o3YSXZBsr3dB+7cxE9j84jSmx0R7QpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQRR7Y3tZky4xBYTBJp/qCXDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAFAAOABGAEoAOQBNAFAAXABMAGUAbgBvAHYAbzAeFw0yMzA0MjkxODI5MThaFw0yNDA0MjkwMDI5MThaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AUAA4AEYASgA5AE0AUABcAEwAZQBuAG8AdgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRoa3LU3m0O5bFasSsEqicOQh++Cw9GBsLVA4X789Q9bdFgI7UI+QVx3cn2HHQkr1BtPiQQrS6FwHauV5jkccGAHoTcA/bzBgzjZR6PtEb70c/E7MNZfC9XtaUWhWtjVTOm5l8fF3Dx3ajdhJdkGyvd0H7tzET2PziNKbHRHtClQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJZurDa53W+Kfqzw2Z3Nm62eaXCHhCqKyGZpforD4yi0CO3MVuqgI8lHNr78zCppJuVzrWMV1SawoQLRZc3UaPfpI+P8vQBXOHcZyXAIwkFyM3SqSpRYSJ8Qg1uaNQdUOMEvQwZhaq4cbUzm88CNITD0NvqHG5AZkK87nC0BT7X2</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
